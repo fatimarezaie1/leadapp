@@ -1,0 +1,47 @@
+    
+#container{
+    display: flex;
+    flex-direction: column;
+   
+}
+#input{
+   border-color:1px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+#btns{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#delete_el{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+li{
+    padding-left: 20px;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+li a{
+    color: green;
+}
